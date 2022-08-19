@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */; };
-		BD9C6A1228AE47B200BD1ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* ContentView.swift */; };
+		BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */; };
 		BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */; };
 		BD9C6A1728AE47B500BD1ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1628AE47B500BD1ACB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		BD9C6A0C28AE47B200BD1ACB /* HarmonySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySchoolApp.swift; sourceTree = "<group>"; };
-		BD9C6A1128AE47B200BD1ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPage.swift; sourceTree = "<group>"; };
 		BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9C6A1628AE47B500BD1ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */,
-				BD9C6A1128AE47B200BD1ACB /* ContentView.swift */,
+				BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */,
 				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
 				BD9C6A1528AE47B500BD1ACB /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9C6A1228AE47B200BD1ACB /* ContentView.swift in Sources */,
+				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +273,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -284,7 +284,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -302,7 +302,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
