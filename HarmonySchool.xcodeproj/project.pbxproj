@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87D8A0D228AF947600B2264E /* ViolinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D8A0D128AF947600B2264E /* ViolinPage.swift */; };
+		87D10C1128B24F5D005DA250 /* SaxoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D10C1028B24F5D005DA250 /* SaxoPage.swift */; };
 		BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */; };
 		BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */; };
 		BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87D8A0D128AF947600B2264E /* ViolinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinPage.swift; sourceTree = "<group>"; };
+		87D10C1028B24F5D005DA250 /* SaxoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaxoPage.swift; sourceTree = "<group>"; };
 		BD9C6A0C28AE47B200BD1ACB /* HarmonySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySchoolApp.swift; sourceTree = "<group>"; };
 		BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPage.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 				BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */,
 				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
 				BD9C6A1528AE47B500BD1ACB /* Preview Content */,
-				87D8A0D128AF947600B2264E /* ViolinPage.swift */,
+				87D10C1028B24F5D005DA250 /* SaxoPage.swift */,
 			);
 			path = HarmonySchool;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
-				87D8A0D228AF947600B2264E /* ViolinPage.swift in Sources */,
+				87D10C1128B24F5D005DA250 /* SaxoPage.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
