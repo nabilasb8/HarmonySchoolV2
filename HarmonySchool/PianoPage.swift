@@ -1,18 +1,18 @@
 //
-//  ContentView.swift
+//  MainPage.swift
 //  HarmonySchool
 //
-//  Created by Nabila on 18/08/22.
+//  Created by Hastomi Riduan Munthe on 22/08/22.
 //
 
 import SwiftUI
 
-func buttonPressed(){
+func button1Pressed(){
     print("button pressed")
 }
-struct PianoPAge: View {
+
+struct PianoPage: View {
     var body: some View {
-        
         NavigationView {
             ZStack{
                 Image("Background")
@@ -20,7 +20,7 @@ struct PianoPAge: View {
                     .ignoresSafeArea()
                 VStack{
                     Button( action:{
-                        buttonPressed()
+                        button1Pressed()
                     }){
                         Image("HomeButton")
                             .resizable()
@@ -31,9 +31,9 @@ struct PianoPAge: View {
                     HStack{
                         VStack{
                             Button( action:{
-                                buttonPressed()
+                                button1Pressed()
                             }){
-                                Image("HomeButton")
+                                Image("Button2")
                                     .resizable()
                             }
                         } .frame(width: 100, height: 100, alignment: .topTrailing)
@@ -46,7 +46,7 @@ struct PianoPAge: View {
                                 .offset(x: -130, y:-320)
                         }
                         Button( action:{
-                            buttonPressed()
+                            button1Pressed()
                         }){
                             Image("ButtonPlay")
                                 .resizable()
@@ -70,12 +70,14 @@ struct PianoPAge: View {
             }
             
         }.navigationViewStyle(.stack)
+
+
     }
 }
 
 struct PianoPage_Previews: PreviewProvider {
     static var previews: some View {
-        PianoPAge()
+        PianoPage()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
