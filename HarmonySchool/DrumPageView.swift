@@ -88,7 +88,7 @@ struct DrumPageView: View {
             
             //tombol home masih belom
             VStack{
-            NavigationLink(destination: MainPageView(), isActive: self.$isContent1Active) {
+            NavigationLink(destination: ShowStageView(), isActive: self.$isContent1Active) {
                     Text("")
             }
             Button(action:{
