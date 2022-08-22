@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805428B3707500AB4045 /* MainPageView.swift */; };
+		5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805628B3709D00AB4045 /* ShowStageView.swift */; };
+		5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805828B370BA00AB4045 /* DrumPageView.swift */; };
 		BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */; };
 		BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */; };
 		BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F2D805428B3707500AB4045 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		5F2D805628B3709D00AB4045 /* ShowStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStageView.swift; sourceTree = "<group>"; };
+		5F2D805828B370BA00AB4045 /* DrumPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPageView.swift; sourceTree = "<group>"; };
 		BD9C6A0C28AE47B200BD1ACB /* HarmonySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySchoolApp.swift; sourceTree = "<group>"; };
 		BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPage.swift; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */,
+				5F2D805428B3707500AB4045 /* MainPageView.swift */,
+				5F2D805628B3709D00AB4045 /* ShowStageView.swift */,
+				5F2D805828B370BA00AB4045 /* DrumPageView.swift */,
 				BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */,
 				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
 				BD9C6A1528AE47B500BD1ACB /* Preview Content */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */,
 				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
+				5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */,
+				5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
