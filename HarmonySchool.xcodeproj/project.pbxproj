@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87D10C1128B24F5D005DA250 /* SaxoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D10C1028B24F5D005DA250 /* SaxoPage.swift */; };
+		8736B3D428B388E2008D638C /* TrumpetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736B3D328B388E2008D638C /* TrumpetPage.swift */; };
 		BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */; };
 		BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */; };
 		BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87D10C1028B24F5D005DA250 /* SaxoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaxoPage.swift; sourceTree = "<group>"; };
+		8736B3D328B388E2008D638C /* TrumpetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpetPage.swift; sourceTree = "<group>"; };
 		BD9C6A0C28AE47B200BD1ACB /* HarmonySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySchoolApp.swift; sourceTree = "<group>"; };
 		BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPage.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 				BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */,
 				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
 				BD9C6A1528AE47B500BD1ACB /* Preview Content */,
-				87D10C1028B24F5D005DA250 /* SaxoPage.swift */,
+				8736B3D328B388E2008D638C /* TrumpetPage.swift */,
 			);
 			path = HarmonySchool;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
-				87D10C1128B24F5D005DA250 /* SaxoPage.swift in Sources */,
+				8736B3D428B388E2008D638C /* TrumpetPage.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
