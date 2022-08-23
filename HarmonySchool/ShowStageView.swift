@@ -88,8 +88,10 @@ struct ShowStageView: View{
                         }
                             
                         
-                        }.frame(width: 350, height: 700)
-                        .offset(x: -500, y: 100)
+                        }
+                    .position(x: 150, y: 550)
+//                    .frame(width: 350, height: 700)
+//                        .offset(x: -500, y: 100)
                     
 //                    //TROMPET
 //                    VStack {
@@ -110,7 +112,7 @@ struct ShowStageView: View{
                     //TROMPET2
                     //DRUM2
                     VStack{
-                        NavigationLink(destination: DrumPageView(), isActive: self.$isActive) {
+                        NavigationLink(destination: TrumpetPage(), isActive: self.$isActive) {
                             Text("")
                         }
                         Button(action:{
@@ -123,8 +125,10 @@ struct ShowStageView: View{
                         }
                             
                         
-                        }.frame(width: 350, height: 700)
-                        .offset(x: -270, y: 120)
+                        }
+                    .position(x: 400, y: 550)
+//                    .frame(width: 350, height: 700)
+//                        .offset(x: -270, y: 120)
                     
                     //GITAR
 //                    VStack {
@@ -157,8 +161,10 @@ struct ShowStageView: View{
                         }
                             
                         
-                        }.frame(width: 600, height: 800)
-                        .offset(x: -50, y: 150)
+                        }
+                    .position(x: 650, y: 550)
+//                    .frame(width: 600, height: 800)
+//                        .offset(x: -50, y: 150)
                     
                     
                     
@@ -181,7 +187,7 @@ struct ShowStageView: View{
                     
                     //KEYBOARD2
                     VStack{
-                        NavigationLink(destination: DrumPageView(), isActive: self.$isActive) {
+                        NavigationLink(destination: PianoPAge(), isActive: self.$isActive) {
                             Text("")
                         }
                         Button(action:{
@@ -194,8 +200,10 @@ struct ShowStageView: View{
                         }
                             
                         
-                        }.frame(width: 700, height: 800)
-                        .offset(x: 150, y: 150)
+                        }
+                    .position(x: 900, y: 530)
+//                    .frame(width: 700, height: 800)
+//                        .offset(x: 150, y: 150)
                     
                     //VIOLIN
 //                    VStack {
@@ -229,8 +237,10 @@ struct ShowStageView: View{
                         }
                             
                         
-                        } .frame(width: 600, height: 700)
-                        .offset(x: 350, y: 150)
+                        }
+                    .position(x: 1180, y: 550)
+//                    .frame(width: 600, height: 700)
+//                        .offset(x: 350, y: 150)
                     
                     
                     
@@ -262,7 +272,9 @@ struct ShowStageView: View{
 struct ShowStageView_Previews: PreviewProvider {
     static var previews: some View {
         ShowStageView()
+            .previewInterfaceOrientation(.landscapeLeft)
         MainPageView()
+            .previewInterfaceOrientation(.landscapeLeft)
 //        BackyardPage()
 //            .previewInterfaceOrientation(.landscapeRight)
     }

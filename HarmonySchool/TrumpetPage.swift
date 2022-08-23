@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 func button2Pressed(){
     print("button pressed")
 }
 
 struct TrumpetPage: View {
+    var buttonNumber: Int = 0
+    var selectedNumber: Int = 0
+    
     var body: some View {
         ZStack {
             Image("Background")
@@ -23,7 +27,9 @@ struct TrumpetPage: View {
                 Image("Button1")
                     .position(x: 860, y: 940)
                     .onTapGesture {
-                        button2Pressed()
+                        if selectedNumber == buttonNumber {
+                            print("benar")
+                        }
                     }
                 Image("Button1")
                     .position(x: 790, y: 860)
