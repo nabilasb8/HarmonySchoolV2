@@ -67,11 +67,70 @@ struct PianoPage: View {
                 }.frame(width: 1200, height: 800)
                     .offset(x: -0, y:40)
                 
+                HStack{
+                    VStack {
+                        Button( action:{
+                            button1Pressed()
+                        }){
+                            Image("piano1")
+                                .resizable()
+                        }
+                    } .frame(width: 70, height: 230)
+                    .offset(x: -330, y:250)
+                    
+                    VStack {
+                    Button( action:{
+                        button1Pressed()
+                    }){
+                        Image("piano5")
+                            .resizable()
+                    }
+                    } .frame(width: 70, height: 230)
+                    .offset(x: -365, y:250)
+                    
+                    VStack {
+                    Button( action:{
+                        button1Pressed()
+                    }){
+                        Image("piano2")
+                            .resizable()
+                    }
+                    } .frame(width: 90, height: 230)
+                    .offset(x: -405, y:250)
+                    
+                    VStack {
+                    Button( action:{
+                        button1Pressed()
+                    }){
+                        Image("piano5")
+                            .resizable()
+                    }
+                    } .frame(width: 70, height: 230)
+                    .offset(x: -390, y:250)
+                    
+                    VStack {
+                    Button( action:{
+                        button1Pressed()
+                    }){
+                        Image("piano2")
+                            .resizable()
+                    }
+                    } .frame(width: 90, height: 230)
+                    .offset(x: -390, y:250)
+                    
+
+                    
+
+                    
+                    
+                    
+                }
+                
             }
             
         }.navigationViewStyle(.stack)
-
-
+        
+        
     }
 }
 

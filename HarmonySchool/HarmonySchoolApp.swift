@@ -12,7 +12,6 @@ struct HarmonySchoolApp: App {
     var body: some Scene {
         WindowGroup {
             PianoPage()
-            MainPage()
         }
     }
 }
