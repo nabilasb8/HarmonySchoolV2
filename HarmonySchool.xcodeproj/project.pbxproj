@@ -10,6 +10,14 @@
 		5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805428B3707500AB4045 /* MainPageView.swift */; };
 		5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805628B3709D00AB4045 /* ShowStageView.swift */; };
 		5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805828B370BA00AB4045 /* DrumPageView.swift */; };
+		BD3DBEA928B6087800C91BA5 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEA828B6087800C91BA5 /* 3.mp3 */; };
+		BD3DBEAD28B6088100C91BA5 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEAA28B6088100C91BA5 /* 0.mp3 */; };
+		BD3DBEAE28B6088100C91BA5 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEAB28B6088100C91BA5 /* 1.mp3 */; };
+		BD3DBEAF28B6088100C91BA5 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEAC28B6088100C91BA5 /* 2.mp3 */; };
+		BD3DBEB128B6092E00C91BA5 /* GuitarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DBEB028B6092E00C91BA5 /* GuitarString.swift */; };
+		BD3DBEB328B6346000C91BA5 /* PopUpGuitarResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DBEB228B6346000C91BA5 /* PopUpGuitarResult.swift */; };
+		BD58E87D28B4DB490003B9B4 /* GuitarPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58E87C28B4DB490003B9B4 /* GuitarPageView.swift */; };
+		BD6723F628B52A6B00C0F442 /* GuitarPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6723F528B52A6B00C0F442 /* GuitarPageViewModel.swift */; };
 		BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */; };
 		BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */; };
 		BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */; };
@@ -21,6 +29,14 @@
 		5F2D805628B3709D00AB4045 /* ShowStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStageView.swift; sourceTree = "<group>"; };
 		5F2D805828B370BA00AB4045 /* DrumPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPageView.swift; sourceTree = "<group>"; };
 		66D6A72D28B4A18200D10CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD3DBEA828B6087800C91BA5 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		BD3DBEAA28B6088100C91BA5 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		BD3DBEAB28B6088100C91BA5 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		BD3DBEAC28B6088100C91BA5 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		BD3DBEB028B6092E00C91BA5 /* GuitarString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarString.swift; sourceTree = "<group>"; };
+		BD3DBEB228B6346000C91BA5 /* PopUpGuitarResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpGuitarResult.swift; sourceTree = "<group>"; };
+		BD58E87C28B4DB490003B9B4 /* GuitarPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarPageView.swift; sourceTree = "<group>"; };
+		BD6723F528B52A6B00C0F442 /* GuitarPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarPageViewModel.swift; sourceTree = "<group>"; };
 		BD9C6A0C28AE47B200BD1ACB /* HarmonySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonySchoolApp.swift; sourceTree = "<group>"; };
 		BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPage.swift; sourceTree = "<group>"; };
@@ -39,6 +55,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD3DBEA728B6083900C91BA5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BD3DBEAA28B6088100C91BA5 /* 0.mp3 */,
+				BD3DBEAB28B6088100C91BA5 /* 1.mp3 */,
+				BD3DBEAC28B6088100C91BA5 /* 2.mp3 */,
+				BD3DBEA828B6087800C91BA5 /* 3.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BD6723F328B52A2700C0F442 /* GuitarPage */ = {
+			isa = PBXGroup;
+			children = (
+				BD3DBEA728B6083900C91BA5 /* Audio */,
+				BD58E87C28B4DB490003B9B4 /* GuitarPageView.swift */,
+				BD6723F528B52A6B00C0F442 /* GuitarPageViewModel.swift */,
+				BD3DBEB028B6092E00C91BA5 /* GuitarString.swift */,
+				BD3DBEB228B6346000C91BA5 /* PopUpGuitarResult.swift */,
+			);
+			path = GuitarPage;
+			sourceTree = "<group>";
+		};
 		BD9C6A0328AE47B200BD1ACB = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +97,7 @@
 		BD9C6A0E28AE47B200BD1ACB /* HarmonySchool */ = {
 			isa = PBXGroup;
 			children = (
+				BD6723F328B52A2700C0F442 /* GuitarPage */,
 				66D6A72D28B4A18200D10CCD /* Info.plist */,
 				BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */,
 				5F2D805428B3707500AB4045 /* MainPageView.swift */,
@@ -136,8 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3DBEA928B6087800C91BA5 /* 3.mp3 in Resources */,
 				BD9C6A1728AE47B500BD1ACB /* Preview Assets.xcassets in Resources */,
 				BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */,
+				BD3DBEAF28B6088100C91BA5 /* 2.mp3 in Resources */,
+				BD3DBEAD28B6088100C91BA5 /* 0.mp3 in Resources */,
+				BD3DBEAE28B6088100C91BA5 /* 1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3DBEB128B6092E00C91BA5 /* GuitarString.swift in Sources */,
 				5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */,
+				BD3DBEB328B6346000C91BA5 /* PopUpGuitarResult.swift in Sources */,
 				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
+				BD6723F628B52A6B00C0F442 /* GuitarPageViewModel.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
+				BD58E87D28B4DB490003B9B4 /* GuitarPageView.swift in Sources */,
 				5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */,
 				5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */,
 			);
