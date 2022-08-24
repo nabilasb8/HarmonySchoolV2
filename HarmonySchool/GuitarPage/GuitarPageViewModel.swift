@@ -15,8 +15,14 @@ class GuitarPageViewModel: ObservableObject {
     var songStrings: [Int] = [1, 1, 1, 0, 2, 2, 0, 0, 0, 3, 3, 1, 0, 1, 1, 1, 0, 2, 2, 0, 0, 0, 3, 3, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     var currentActiveIndex: Int? {
         didSet {
-            if let activeIndex = currentActiveIndex, activeIndex < songStrings.count {
-                activeStringId = songStrings[activeIndex]
+            if let activeIndex = currentActiveIndex {
+                if activeIndex < songStrings.count {
+                    activeStringId = songStrings[activeIndex]
+                } else {
+                    showPopUp = true
+                    isPlaying = false
+                    activeStringId = nil
+                }
             } else {
                 isPlaying = false
                 activeStringId = nil
@@ -27,6 +33,7 @@ class GuitarPageViewModel: ObservableObject {
     
     var activeStringId: Int?
     
+    @Published var showPopUp: Bool = false
     @Published var isPlaying: Bool = false
     
     init() {

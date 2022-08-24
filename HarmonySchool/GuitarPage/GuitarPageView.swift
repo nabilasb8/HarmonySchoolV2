@@ -14,6 +14,7 @@ struct GuitarPageView: View {
     let yellowColor = Color(.sRGB, red: 249/255, green: 192/255, blue: 47/255, opacity: 1.0)
     let activeStringColor = Color(.sRGB, red: 129/255, green: 128/255, blue: 255/255, opacity: 1.0)
     @ObservedObject var viewModel: GuitarPageViewModel = GuitarPageViewModel()
+    @State var presentingPopUp: Bool = false
     
     var body: some View {
         NavigationView {
@@ -107,6 +108,12 @@ struct GuitarPageView: View {
                     Spacer()
                         .frame(height: 625)
                 }
+            }
+            .onChange(of: viewModel.showPopUp) { showPopUp in
+                presentingPopUp = showPopUp
+            }
+            .fullScreenCover(isPresented: $presentingPopUp) {
+                PopUpGuitarResult(presentedAsPopUp: $presentingPopUp)
             }
             
         }.navigationViewStyle(.stack)
