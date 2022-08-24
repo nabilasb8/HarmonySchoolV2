@@ -11,7 +11,7 @@ import SwiftUI
 struct HarmonySchoolApp: App {
     var body: some Scene {
         WindowGroup {
-           MainPageView()
+           TrumpetPage()
         }
     }
 }

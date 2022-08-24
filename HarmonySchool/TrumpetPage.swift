@@ -15,6 +15,10 @@ func button2Pressed(){
 struct TrumpetPage: View {
     var buttonNumber: Int = 0
     var selectedNumber: Int = 0
+    @State private var showButton = false
+    @State var imageName: String = "ButtonAct"
+    
+    let notesArray: [String] = ["BT1", "BT1", "BT2", "BT1", "BT3", "BT4", "BT1", "BT1", "BT2", "BT3", "BT4", "BT1", "BT1", "BT1", "BT4", "BT5", "BT4", "BT2", "BT3", "BT4", "BT3", "BT1", "BT3"]
     
     var body: some View {
         ZStack {
@@ -23,14 +27,19 @@ struct TrumpetPage: View {
                 .position(x: 1125, y: 500)
             ZStack {
                 Image("Trumpet")
+                Button {
+                    self.imageName = "ButtonNon"
+                        
+                } label: {
+                    Image(imageName)
+                        .position(x: 860, y: 940)
+                }
                 
-                Image("Button1")
-                    .position(x: 860, y: 940)
-                    .onTapGesture {
-                        if selectedNumber == buttonNumber {
-                            print("benar")
-                        }
-                    }
+//                    .onTapGesture {
+//                        if selectedNumber == buttonNumber {
+//                            self.showButton.toggle()
+//                        }
+//                    }
                 Image("Button1")
                     .position(x: 790, y: 860)
                     .onTapGesture {
@@ -81,6 +90,7 @@ struct TrumpetPage: View {
                 VStack(alignment: .leading) {
                     Text("TRUMPET")
                         .font(.custom("SF Pro Rounded", size: 61))
+                        
                     Text("Hey Tayo Song")
                         .font(.custom("SF Pro Rounded", size: 30))
                         .foregroundColor(Color.black)

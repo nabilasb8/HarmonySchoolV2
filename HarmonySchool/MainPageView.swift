@@ -80,12 +80,6 @@ struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
         MainPageView()
             .previewInterfaceOrientation(.landscapeLeft)
-            //.previewInterfaceOrientation(.landscapeLeft)
-        ShowStageView()
-            .previewInterfaceOrientation(.landscapeLeft)
-            //.previewInterfaceOrientation(.landscapeLeft)
-//        BackyardPage()
-//            .previewInterfaceOrientation(.landscapeRight)
     }
 }
 
