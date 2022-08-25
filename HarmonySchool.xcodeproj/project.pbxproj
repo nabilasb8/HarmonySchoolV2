@@ -10,6 +10,18 @@
 		5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805428B3707500AB4045 /* MainPageView.swift */; };
 		5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805628B3709D00AB4045 /* ShowStageView.swift */; };
 		5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D805828B370BA00AB4045 /* DrumPageView.swift */; };
+		5FEFED2D28B71F4B0051CEB5 /* DrumPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED2C28B71F4B0051CEB5 /* DrumPageViewModel.swift */; };
+		5FEFED2F28B71FB40051CEB5 /* DrumString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED2E28B71FB40051CEB5 /* DrumString.swift */; };
+		5FEFED3228B737380051CEB5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED3128B737380051CEB5 /* File.swift */; };
+		5FEFED3428B738820051CEB5 /* ViolinPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED3328B738820051CEB5 /* ViolinPageView.swift */; };
+		5FEFED3628B73B0B0051CEB5 /* D D A D D D A D A A D G D D A D in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED3528B73B0B0051CEB5 /* D D A D D D A D A A D G D D A D */; };
+		5FEFED3A28B73C370051CEB5 /* ViolinViviString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED3928B73C370051CEB5 /* ViolinViviString.swift */; };
+		5FEFED3D28B73CB60051CEB5 /* violin_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFED3C28B73CB60051CEB5 /* violin_0.mp3 */; };
+		5FEFED3F28B73CCF0051CEB5 /* violin_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFED3E28B73CCF0051CEB5 /* violin_1.mp3 */; };
+		5FEFED4128B73CD90051CEB5 /* violin_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFED4028B73CD90051CEB5 /* violin_2.mp3 */; };
+		5FEFED4328B73CE50051CEB5 /* violin_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFED4228B73CE50051CEB5 /* violin_3.mp3 */; };
+		5FEFED4528B73FD40051CEB5 /* ViolinPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED4428B73FD40051CEB5 /* ViolinPageViewModel.swift */; };
+		5FEFED4728B741A00051CEB5 /* PopUpViolinResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFED4628B741A00051CEB5 /* PopUpViolinResult.swift */; };
 		8736B3D428B388E2008D638C /* TrumpetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736B3D328B388E2008D638C /* TrumpetPage.swift */; };
 		BD3DBEA928B6087800C91BA5 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEA828B6087800C91BA5 /* 3.mp3 */; };
 		BD3DBEAD28B6088100C91BA5 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD3DBEAA28B6088100C91BA5 /* 0.mp3 */; };
@@ -29,6 +41,18 @@
 		5F2D805428B3707500AB4045 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 		5F2D805628B3709D00AB4045 /* ShowStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStageView.swift; sourceTree = "<group>"; };
 		5F2D805828B370BA00AB4045 /* DrumPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPageView.swift; sourceTree = "<group>"; };
+		5FEFED2C28B71F4B0051CEB5 /* DrumPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPageViewModel.swift; sourceTree = "<group>"; };
+		5FEFED2E28B71FB40051CEB5 /* DrumString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumString.swift; sourceTree = "<group>"; };
+		5FEFED3128B737380051CEB5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5FEFED3328B738820051CEB5 /* ViolinPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinPageView.swift; sourceTree = "<group>"; };
+		5FEFED3528B73B0B0051CEB5 /* D D A D D D A D A A D G D D A D */ = {isa = PBXFileReference; lastKnownFileType = text; path = "D D A D D D A D A A D G D D A D"; sourceTree = "<group>"; };
+		5FEFED3928B73C370051CEB5 /* ViolinViviString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinViviString.swift; sourceTree = "<group>"; };
+		5FEFED3C28B73CB60051CEB5 /* violin_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_0.mp3; sourceTree = "<group>"; };
+		5FEFED3E28B73CCF0051CEB5 /* violin_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_1.mp3; sourceTree = "<group>"; };
+		5FEFED4028B73CD90051CEB5 /* violin_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_2.mp3; sourceTree = "<group>"; };
+		5FEFED4228B73CE50051CEB5 /* violin_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin_3.mp3; sourceTree = "<group>"; };
+		5FEFED4428B73FD40051CEB5 /* ViolinPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinPageViewModel.swift; sourceTree = "<group>"; };
+		5FEFED4628B741A00051CEB5 /* PopUpViolinResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViolinResult.swift; sourceTree = "<group>"; };
 		66D6A72D28B4A18200D10CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8736B3D328B388E2008D638C /* TrumpetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpetPage.swift; sourceTree = "<group>"; };
 		BD3DBEA828B6087800C91BA5 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
@@ -57,6 +81,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FEFED2928B71F100051CEB5 /* Drum */ = {
+			isa = PBXGroup;
+			children = (
+				5F2D805828B370BA00AB4045 /* DrumPageView.swift */,
+				5FEFED2C28B71F4B0051CEB5 /* DrumPageViewModel.swift */,
+				5FEFED2E28B71FB40051CEB5 /* DrumString.swift */,
+				5FEFED3028B7372D0051CEB5 /* VIOLIN */,
+			);
+			path = Drum;
+			sourceTree = "<group>";
+		};
+		5FEFED3028B7372D0051CEB5 /* VIOLIN */ = {
+			isa = PBXGroup;
+			children = (
+				5FEFED3B28B73C710051CEB5 /* Audio */,
+				5FEFED3328B738820051CEB5 /* ViolinPageView.swift */,
+				5FEFED4428B73FD40051CEB5 /* ViolinPageViewModel.swift */,
+				5FEFED3928B73C370051CEB5 /* ViolinViviString.swift */,
+				5FEFED4628B741A00051CEB5 /* PopUpViolinResult.swift */,
+				5FEFED3528B73B0B0051CEB5 /* D D A D D D A D A A D G D D A D */,
+				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
+			);
+			path = VIOLIN;
+			sourceTree = "<group>";
+		};
+		5FEFED3B28B73C710051CEB5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5FEFED4028B73CD90051CEB5 /* violin_2.mp3 */,
+				5FEFED3C28B73CB60051CEB5 /* violin_0.mp3 */,
+				5FEFED3E28B73CCF0051CEB5 /* violin_1.mp3 */,
+				5FEFED4228B73CE50051CEB5 /* violin_3.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		BD3DBEA728B6083900C91BA5 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,7 @@
 		BD9C6A0328AE47B200BD1ACB = {
 			isa = PBXGroup;
 			children = (
+				5FEFED3128B737380051CEB5 /* File.swift */,
 				BD9C6A0E28AE47B200BD1ACB /* HarmonySchool */,
 				BD9C6A0D28AE47B200BD1ACB /* Products */,
 			);
@@ -104,11 +165,10 @@
 				BD9C6A0F28AE47B200BD1ACB /* HarmonySchoolApp.swift */,
 				5F2D805428B3707500AB4045 /* MainPageView.swift */,
 				5F2D805628B3709D00AB4045 /* ShowStageView.swift */,
-				5F2D805828B370BA00AB4045 /* DrumPageView.swift */,
 				BD9C6A1128AE47B200BD1ACB /* PianoPage.swift */,
-				BD9C6A1328AE47B500BD1ACB /* Assets.xcassets */,
 				BD9C6A1528AE47B500BD1ACB /* Preview Content */,
 				8736B3D328B388E2008D638C /* TrumpetPage.swift */,
+				5FEFED2928B71F100051CEB5 /* Drum */,
 			);
 			path = HarmonySchool;
 			sourceTree = "<group>";
@@ -179,10 +239,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEFED4328B73CE50051CEB5 /* violin_3.mp3 in Resources */,
+				5FEFED3D28B73CB60051CEB5 /* violin_0.mp3 in Resources */,
 				BD3DBEA928B6087800C91BA5 /* 3.mp3 in Resources */,
 				BD9C6A1728AE47B500BD1ACB /* Preview Assets.xcassets in Resources */,
+				5FEFED3F28B73CCF0051CEB5 /* violin_1.mp3 in Resources */,
 				BD9C6A1428AE47B500BD1ACB /* Assets.xcassets in Resources */,
 				BD3DBEAF28B6088100C91BA5 /* 2.mp3 in Resources */,
+				5FEFED4128B73CD90051CEB5 /* violin_2.mp3 in Resources */,
 				BD3DBEAD28B6088100C91BA5 /* 0.mp3 in Resources */,
 				BD3DBEAE28B6088100C91BA5 /* 1.mp3 in Resources */,
 			);
@@ -197,13 +261,21 @@
 			files = (
 				BD3DBEB128B6092E00C91BA5 /* GuitarString.swift in Sources */,
 				5F2D805928B370BA00AB4045 /* DrumPageView.swift in Sources */,
+				5FEFED2F28B71FB40051CEB5 /* DrumString.swift in Sources */,
 				BD3DBEB328B6346000C91BA5 /* PopUpGuitarResult.swift in Sources */,
+				5FEFED4728B741A00051CEB5 /* PopUpViolinResult.swift in Sources */,
 				BD9C6A1228AE47B200BD1ACB /* PianoPage.swift in Sources */,
+				5FEFED4528B73FD40051CEB5 /* ViolinPageViewModel.swift in Sources */,
 				8736B3D428B388E2008D638C /* TrumpetPage.swift in Sources */,
+				5FEFED3628B73B0B0051CEB5 /* D D A D D D A D A A D G D D A D in Sources */,
+				5FEFED3A28B73C370051CEB5 /* ViolinViviString.swift in Sources */,
 				BD6723F628B52A6B00C0F442 /* GuitarPageViewModel.swift in Sources */,
 				BD9C6A1028AE47B200BD1ACB /* HarmonySchoolApp.swift in Sources */,
+				5FEFED3428B738820051CEB5 /* ViolinPageView.swift in Sources */,
 				BD58E87D28B4DB490003B9B4 /* GuitarPageView.swift in Sources */,
 				5F2D805728B3709D00AB4045 /* ShowStageView.swift in Sources */,
+				5FEFED3228B737380051CEB5 /* File.swift in Sources */,
+				5FEFED2D28B71F4B0051CEB5 /* DrumPageViewModel.swift in Sources */,
 				5F2D805528B3707500AB4045 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
