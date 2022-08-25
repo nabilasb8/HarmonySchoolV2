@@ -28,6 +28,9 @@ struct DrumPageView: View {
     
     @State private var isContent1Active = false
     @State private var isContent2Active = false
+    @State private var urutanyanglagiaktif = 0
+    
+    let notesArray = [94,91,92,92,92,92,92,92,92,94,91,92,92,92,92,92,92,92,94,91,92,92,92,92,92,92,92,92,91,94,91,92,92,92,92,92,92,92,94,91,92,92,92,92,92,92,92,94,91,92,92,92,92,92,92,92,92,91]
     
     func buttonPressed(){
         print("button pressed")
@@ -43,80 +46,154 @@ struct DrumPageView: View {
                 .resizable()
                 .ignoresSafeArea()
             
-            VStack{
-                Image("drumpage_cowok")
-            }.offset(x: 400, y: -150)
-            
-            VStack{
-                Image("drumpage_title")
-            }.offset(y: -350)
-            
-
             HStack{
-                Image("drumpage_coloum")
-            }.offset(x: -200, y: -300)
-            
-            HStack{
-                Image("drumpage_title")
-            }.offset(x: -330, y: -320)
-            
-            HStack{
-                Image("drumpage_heytayo")
-            }.offset(x: -320, y: -270)
-            
-            HStack{
-                Image("drumpage_drum")
-            }.offset(x: -50, y: 150)
-            
-            
-            //destinationnya blm
-            HStack{
-                NavigationLink(destination: ShowStageView(), isActive: self.$isActive) {
-                    Text("")
+                VStack{
+                //tombol home masih belom
+                VStack{
+                NavigationLink(destination: ShowStageView(), isActive: self.$isContent1Active) {
+                        Text("")
                 }
                 Button(action:{
-                    self.isActive = true
-                    //audioPlayer?.stop()
-                    
-                    
+                    self.isContent1Active = true
+    //                        backgroundSound?.stop()
                 }) {
-                    Image("drumpage_play")
+                    Image("drumpage_home")
+                    .resizable()
+                    }
                 }
-            }.offset(x: 80, y: -300)
-            
-            
-            
-            //tombol home masih belom
-            VStack{
-            NavigationLink(destination: ShowStageView(), isActive: self.$isContent1Active) {
-                    Text("")
+                
+                .frame(width: 90, height: 100)
+                      .position(x: 100, y: -20)
+
+                
+                
+    //            tombol danger drum masih belom
+                VStack{
+                NavigationLink(destination: MainPageView(), isActive: self.$isContent1Active) {
+                        Text("")
+                }
+                Button(action:{
+                    self.isContent1Active = true
+    //                        backgroundSound?.stop()
+                }) {
+                    Image("drumpage_danger")
+                    .resizable()
+                    }
+                }
+                .frame(width: 90, height: 100)
+                      .position(x: 100, y: -350)
+                }
+                
+                            ZStack{
+                                Image("drumpage_coloum")
+                                    .position(x: -200, y: 150)
+                                
+                                Image("drumpage_title")
+                                    .position(x: -300, y: 130)
+                                
+                                Image("drumpage_heytayo")
+                                    .position(x: -290, y: 180)
+                                
+                                //destinationnya blm
+                                HStack{
+                                    NavigationLink(destination: ShowStageView(), isActive: self.$isActive) {
+                                        Text("")
+                                    }
+                                    Button(action:{
+                                        self.isActive = true
+                                        //audioPlayer?.stop()
+                    
+                    
+                                    }) {
+                                        Image("drumpage_play")
+                                    }
+                                }.position(x: 70, y: 150)
+                                
+                                
+                                Image("drumpage_cowok")
+                                    .position(x: 350, y: 350)
+                                
+                                
+                                Image("drumpage_gendang")
+                                    .position(x: 0, y: 580)
+                                                ZStack{
+                                                //TUTS1
+                                                Button(action:{
+                                                   urutanyanglagiaktif += 1
+                                                })  {
+                                                    Image("tuts1")
+                                                    .resizable()
+                                                }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(90)).position(x: 0, y: 430)
+                                
+                                                //TUTS2
+                                                Button(action:{
+                                                   urutanyanglagiaktif += 1
+                                                })  {
+                                                    Image("tuts2")
+                                                    .resizable()
+                                                }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(-25)).position(x: 105, y: 475)
+                                
+                                
+                                                //TUTS3
+                                                Button(action:{
+                                                   urutanyanglagiaktif += 1
+                                                })  {
+                                                    Image("tuts3")
+                                                    .resizable()
+                                                }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(-0)).position(x: 150, y: 580)
+                                
+                                
+                                                //TUTS4
+                                                Button(action:{
+                                                   urutanyanglagiaktif += 1
+                                                })  {
+                                                    Image("tuts4")
+                                                    .resizable()
+                                                }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(25)).position(x: 110, y: 690)
+                                
+                                
+                                                //TUTS5
+                                                Button(action:{
+                                                   urutanyanglagiaktif += 1
+                                                })  {
+                                                    Image("tuts5")
+                                                    .resizable()
+                                                }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(100)).position(x: 7, y: 730)
+                                                    
+                                                    
+                                                //TUTS6
+                                                    Button(action:{
+                                                       urutanyanglagiaktif += 1
+                                                    })  {
+                                                        Image("tuts6")
+                                                        .resizable()
+                                                    }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(-20)).position(x: -100, y: 690)
+                                                    
+                                                    
+                                                //TUTS7
+                                                    Button(action:{
+                                                       urutanyanglagiaktif += 1
+                                                    })  {
+                                                        Image("tuts7")
+                                                        .resizable()
+                                                    }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(0)).position(x: -150, y: 580)
+                                                    
+                                                //TUTS8
+                                                        Button(action:{
+                                                           urutanyanglagiaktif += 1
+                                                        })  {
+                                                            Image("tuts8")
+                                                            .resizable()
+                                                        }.colorMultiply(.white).frame(width: 81.95, height: 106.82).rotationEffect(.degrees(25)).position(x: -105, y: 475)
+                                                    
+                                                }
+                                
+                            }
+                
+                
+
+                
             }
-            Button(action:{
-                self.isContent1Active = true
-//                        backgroundSound?.stop()
-            }) {
-                Image("drumpage_home")
-                .resizable()
-                }
-            } .frame(width: 120, height: 130)
-                  .offset(x: -550, y: -450)
-            
-            
-            
-            //tombol danger drum masih belom
-            VStack{
-            NavigationLink(destination: MainPageView(), isActive: self.$isContent1Active) {
-                    Text("")
-            }
-            Button(action:{
-                self.isContent1Active = true
-//                        backgroundSound?.stop()
-            }) {
-                Image("drumpage_danger")
-                .resizable()
-                }
-            } .frame(width: 120, height: 130)
-                  .offset(x: -550, y: -320)
             
             
             }
@@ -134,6 +211,7 @@ struct DrumPageView: View {
 struct DrumPageView_Previews: PreviewProvider {
     static var previews: some View {
         DrumPageView()
+            .previewInterfaceOrientation(.landscapeRight)
         MainPageView()
             //.previewInterfaceOrientation(.landscapeLeft)
         ShowStageView()
