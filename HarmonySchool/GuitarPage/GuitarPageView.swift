@@ -48,27 +48,9 @@ struct GuitarPageView: View {
                 
                 HStack {
                     VStack {
-                        ZStack {
-                            Circle()
-                                .strokeBorder(.black, lineWidth: borderWidth)
-                                .background(Circle().fill(yellowColor))
-                                .frame(width: 80, height: 80)
-                            
-                            Image(systemName: "house.fill")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                        }
+                        Image("HomeButton")
+                        Image("TutorialButton")
                         
-                        ZStack {
-                            Circle()
-                                .strokeBorder(.black, lineWidth: borderWidth)
-                                .background(Circle().fill(yellowColor))
-                                .frame(width: 80, height: 80)
-                            
-                            Image(systemName: "exclamationmark.triangle.fill")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                        }
                         Spacer()
                             .frame(height: 700)
                     }
@@ -78,7 +60,7 @@ struct GuitarPageView: View {
                 
                 VStack {
                     HStack {
-                        VStack {
+                        VStack(alignment: .leading) {
                             Text("GUITAR")
                                 .font(.system(size: 62))
                                 .bold()
@@ -88,19 +70,19 @@ struct GuitarPageView: View {
                         Spacer()
                             .frame(width: 20)
                         
-                        ZStack {
-                            Circle()
-                                .strokeBorder(.black, lineWidth: borderWidth)
-                                .background(Circle().fill(yellowColor))
-                                .frame(width: 120, height: 120)
-                            
-                            Image(systemName: viewModel.isPlaying ? "pause.fill" : "play.fill")
-                                .resizable()
-                                .frame(width: 30, height: 30)
-                        }
-                        .onTapGesture {
-                            viewModel.onClickButtonPlay()
-                        }
+                        
+                        //                            Circle()
+                        //                                .strokeBorder(.black, lineWidth: borderWidth)
+                        //                                .background(Circle().fill(yellowColor))
+                        //                                .frame(width: 120, height: 120)
+                        
+                        Image(viewModel.isPlaying ? "PauseButton" : "PlayButton")
+                        //                                .resizable()
+                        //                                .frame(width: 30, height: 30)
+                        
+                            .onTapGesture {
+                                viewModel.onClickButtonPlay()
+                            }
                         
                         Spacer()
                             .frame(width: 220)

@@ -134,9 +134,12 @@ struct DrumPageView: View {
 struct DrumPageView_Previews: PreviewProvider {
     static var previews: some View {
         DrumPageView()
+            .previewInterfaceOrientation(.landscapeRight)
         MainPageView()
+            .previewInterfaceOrientation(.landscapeLeft)
             //.previewInterfaceOrientation(.landscapeLeft)
         ShowStageView()
+            .previewInterfaceOrientation(.landscapeLeft)
             //.previewInterfaceOrientation(.landscapeLeft)
 //        BackyardPage()
 //            .previewInterfaceOrientation(.landscapeRight)
